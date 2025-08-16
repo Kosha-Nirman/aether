@@ -2,7 +2,7 @@
   <img src="logo.svg" alt="Logo">
 </p>
 
-# Aether 🌬️
+# 🌬️ Aether
 
 ![Node.js Version](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5%2B-007ACC?logo=typescript&logoColor=white)
@@ -13,7 +13,7 @@ It comes pre-configured with TypeScript, linting, formatting, and testing tools,
 
 ---
 
-## Features ⚡
+## ⚡ Features
 
 - **TypeScript**: Strict typing for maintainable and reliable code.
 - **Pre-configured Tooling**:
@@ -29,7 +29,7 @@ It comes pre-configured with TypeScript, linting, formatting, and testing tools,
 
 ---
 
-## Getting Started 🚀
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -39,7 +39,7 @@ Ensure you have the following installed:
 
 ---
 
-### Installation ⚙️
+### ⚙️ Installation
 
 1. Clone the repository:
 
@@ -69,13 +69,13 @@ Ensure you have the following installed:
 
 ---
 
-## License 📜
+## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
 
 ---
 
-## Acknowledgments 🙌
+## 🙌 Acknowledgments
 
 - Designed for developers building **Node.js CLIs and libraries**.
 - Inspired by the lightness of **Aether**, this template provides clarity and flow to new projects.
