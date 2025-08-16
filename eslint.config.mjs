@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
 import { FlatCompat } from "@eslint/eslintrc";
 
+import importPlugin from "eslint-plugin-import";
 import tsParser from "@typescript-eslint/parser";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -28,7 +29,13 @@ const eslintConfig = [
 			"**/*.md",
 		],
 	},
-	...compat.extends("eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"),
+	...compat.extends(
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:import/recommended",
+		"prettier"
+	),
+
 	{
 		languageOptions: {
 			parser: tsParser,
@@ -39,6 +46,19 @@ const eslintConfig = [
 			},
 		},
 
+		plugins: {
+			import: importPlugin,
+		},
+		settings: {
+			"import/resolver": {
+				typescript: {
+					// Use <root>/tsconfig.json by default
+					project: "./tsconfig.json",
+				},
+				node: true,
+			},
+		},
+
 		rules: {
 			eqeqeq: "error",
 			"no-unused-vars": "off",
@@ -46,6 +66,14 @@ const eslintConfig = [
 			"consistent-return": "error",
 			semi: "error",
 			quotes: ["error", "double"],
+
+			"import/order": [
+				"error",
+				{
+					groups: ["builtin", "external", "internal", "parent", "sibling", "index"],
+					"newlines-between": "always",
+				},
+			],
 
 			// ? Disabled as Prettier handles these
 			indent: "off",
