@@ -6,6 +6,11 @@
 
 ![Node.js Version](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5%2B-007ACC?logo=typescript&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-configured-4B32C3?logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-configured-F7B93E?logo=prettier&logoColor=white)
+![Husky](https://img.shields.io/badge/Husky-git_hooks-E9573F?logo=git&logoColor=white)
+![Commitlint](https://img.shields.io/badge/Commitlint-enforced-000000?logo=commitlint&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-testing-99424F?logo=jest&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative&logoColor=white)
 
 **Aether** is a minimal yet powerful Node.js starter template for building functional **CLI tools** and **packages**.  
