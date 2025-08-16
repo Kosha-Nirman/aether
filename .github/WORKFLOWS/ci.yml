@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+    types:
+      - edited
+      - opened
+      - synchronize
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Security Audit
+        run: |
+          npm audit --audit-level=moderate echo "Security audit completed with warnings."
+        continue-on-error: false
+
+      - name: Run Lint
+        run: npm run lint
+        continue-on-error: false
+
+      - name: Run Format check
+        run: |
+          npm run format:check
+          if ! git diff --exit-code; then
+            echo "Code formatting issues found. Please run 'npm run format' to fix them."
+            exit 1
+          fi
+        continue-on-error: false
+
+      - name: Run Tests
+        run: npm run test:coverage
+
+      - name: Check Coverage Threshold
+        run: |
+          if npm run test:coverage 2>&1 | grep -q "not met"; then
+            echo "Coverage threshold not met. Please ensure your tests cover the required lines."
+            exit 1
+          fi
+        continue-on-error: false
