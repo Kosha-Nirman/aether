@@ -1,71 +1,44 @@
-<svg
-  width="256"
-  height="256"
-  viewBox="0 0 256 256"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <g clip-path="url(#clip0_432_152)">
-    <path
-      d="M216 0H40C17.9086 0 0 17.9086 0 40V216C0 238.091 17.9086 256 40 256H216C238.091 256 256 238.091 256 216V40C256 17.9086 238.091 0 216 0Z"
-      fill="#0F172A"
-    />
-    <path
-      d="M128 208C172.183 208 208 172.183 208 128C208 83.8172 172.183 48 128 48C83.8172 48 48 83.8172 48 128C48 172.183 83.8172 208 128 208Z"
-      fill="url(#paint0_radial_432_152)"
-    />
-    <path
-      d="M128 178C180.467 178 223 155.614 223 128C223 100.386 180.467 78 128 78C75.5329 78 33 100.386 33 128C33 155.614 75.5329 178 128 178Z"
-      stroke="url(#paint1_linear_432_152)"
-      stroke-width="8"
-    />
-    <path
-      d="M128 223C155.614 223 178 180.467 178 128C178 75.5329 155.614 33 128 33C100.386 33 78 75.5329 78 128C78 180.467 100.386 223 128 223Z"
-      stroke="url(#paint2_linear_432_152)"
-      stroke-width="6"
-    />
-    <path
-      d="M128 146C137.941 146 146 137.941 146 128C146 118.059 137.941 110 128 110C118.059 110 110 118.059 110 128C110 137.941 118.059 146 128 146Z"
-      fill="white"
-      fill-opacity="0.9"
-    />
-  </g>
-  <defs>
-    <radialGradient
-      id="paint0_radial_432_152"
-      cx="0"
-      cy="0"
-      r="1"
-      gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(8048 8048) scale(9600)"
-    >
-      <stop stop-color="#E0FAFF" />
-      <stop offset="1" stop-color="#80D0FF" />
-    </radialGradient>
-    <linearGradient
-      id="paint1_linear_432_152"
-      x1="33"
-      y1="78"
-      x2="115.43"
-      y2="234.616"
-      gradientUnits="userSpaceOnUse"
-    >
-      <stop stop-color="white" stop-opacity="0.7" />
-      <stop offset="1" stop-color="#7CC9FF" stop-opacity="0.2" />
-    </linearGradient>
-    <linearGradient
-      id="paint2_linear_432_152"
-      x1="78"
-      y1="33"
-      x2="234.616"
-      y2="115.43"
-      gradientUnits="userSpaceOnUse"
-    >
-      <stop stop-color="white" stop-opacity="0.7" />
-      <stop offset="1" stop-color="#7CC9FF" stop-opacity="0.2" />
-    </linearGradient>
-    <clipPath id="clip0_432_152">
-      <rect width="256" height="256" fill="white" />
-    </clipPath>
-  </defs>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<rect width="200" height="200" rx="20" fill="#1E3A5F" />
+	<g filter="url(#filter0_i_438_266)">
+		<path
+			d="M88.2716 44.6507C85.4239 46.2169 82.5761 47.7831 79.7284 49.3493C80.5264 51.0812 81.3244 52.8132 82.1224 54.5451C96.4862 85.72 110.85 116.895 125.214 148.07C126.012 149.802 126.81 151.534 127.608 153.266C135.202 149.089 142.796 144.913 150.39 140.736C149.354 139.135 148.319 137.533 147.284 135.932C128.648 107.106 110.013 78.2805 91.3775 49.455C90.3422 47.8535 89.3069 46.2521 88.2716 44.6507Z"
+			fill="#A3C1DA"
+		/>
+		<path
+			d="M17.2184 140.47C24.8123 144.647 32.4061 148.823 40 153C40.798 151.268 41.596 149.536 42.394 147.804C56.7583 116.63 71.1225 85.4549 85.4867 54.2802C86.2847 52.5483 87.0827 50.8163 87.8807 49.0844C85.033 47.5182 82.1853 45.9519 79.3376 44.3857C78.3023 45.9871 77.267 47.5885 76.2317 49.1899C57.5959 78.0152 38.9601 106.841 20.3243 135.666C19.289 137.267 18.2537 138.869 17.2184 140.47Z"
+			fill="#A3C1DA"
+		/>
+		<path
+			d="M33.6186 148.42C33.6186 148.42 63.7383 101.955 94.297 90.3866C124.856 78.8183 177.619 93.4195 177.619 93.4195"
+			stroke="#A3C1DA"
+			stroke-width="14"
+			stroke-miterlimit="16"
+		/>
+	</g>
+	<defs>
+		<filter
+			id="filter0_i_438_266"
+			x="17.2184"
+			y="44.3857"
+			width="162.264"
+			height="112.88"
+			filterUnits="userSpaceOnUse"
+			color-interpolation-filters="sRGB"
+		>
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+			<feColorMatrix
+				in="SourceAlpha"
+				type="matrix"
+				values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+				result="hardAlpha"
+			/>
+			<feOffset dy="4" />
+			<feGaussianBlur stdDeviation="2" />
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+			<feBlend mode="normal" in2="shape" result="effect1_innerShadow_438_266" />
+		</filter>
+	</defs>
 </svg>
