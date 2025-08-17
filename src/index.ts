@@ -2,4 +2,8 @@ const main = (): string => {
 	return "Welcome to Aether!";
 };
 
-export { main };
+const notmain = (): string => {
+	return "Welcome to Aether!";
+};
+
+export { main, notmain };
