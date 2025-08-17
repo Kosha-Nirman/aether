@@ -10,7 +10,7 @@
 ![Prettier](https://img.shields.io/badge/Prettier-configured-F7B93E?logo=prettier&logoColor=white)
 ![Husky](https://img.shields.io/badge/Husky-git_hooks-E9573F?logo=git&logoColor=white)
 ![Commitlint](https://img.shields.io/badge/Commitlint-enforced-000000?logo=commitlint&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-testing-99424F?logo=jest&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-testing-646CFF?logo=vitest&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative&logoColor=white)
 
 **Aether** is a minimal yet powerful Node.js starter template for building functional **CLI tools** and **packages**.  
@@ -28,7 +28,7 @@ It comes pre-configured with TypeScript, linting, formatting, and testing tools,
   - **Commitlint**: Enforce conventional commit messages.
 - **CLI Ready**: Easily build and distribute CLI applications.
 - **Library Ready**: Publish Node.js packages with confidence.
-- **Jest**: Integrated unit testing for robust codebases.
+- **Vitest**: Integrated unit testing for robust codebases.
 - **Environment Config**: Example `.env` included for easy environment setup.
 - **Developer Experience**: Minimal boilerplate, maximum productivity.
 
