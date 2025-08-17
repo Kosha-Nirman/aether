@@ -49,7 +49,7 @@ jobs:
 
       - name: Check Coverage Threshold
         run: |
-          if npm run test:coverage 2>&1 | grep -q "not met"; then
+          if npm run test:coverage 2>&1 | grep -q "not meet"; then
             echo "Coverage threshold not met. Please ensure your tests cover the required lines."
             exit 1
           fi
